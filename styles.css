@@ -8,9 +8,11 @@ body {
 
 /* Hero Section */
 .hero {
-  background-image: url(cityscape.jpg);
+  /* background-image: url(cityscape.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+  position: relative;
+  overflow: hidden;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -18,9 +20,19 @@ body {
   color: #fff;
   text-align: center;
 }
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
 .hero-text h1 {
   font-size: 36px;
   margin: 0;
+  z-index: 1;
 }
 .cta-button {
   background-color: #004b49;
