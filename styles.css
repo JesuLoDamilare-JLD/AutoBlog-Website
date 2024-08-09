@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url(cityscape.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+.cta-button {
+  background-color: #004b49;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.cta-button:hover {
+  background-color: #007a7d;
+}
+
+/* Brief Introduction */
+.intro {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.intro .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.intro p {
+  font-size: 18px;
+  max-width: 60%;
+}
+.intro-image {
+  max-width: 40%;
+  height: auto;
+}
+
+/* Key Services */
+.services {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+.services .container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.service-card {
+  text-align: center;
+  width: 30%;
+  margin-bottom: 30px;
+}
+.service-icon {
+  width: 60px;
+  height: auto;
+}
+
+.service-card h2 {
+  font-size: 24px;
+  color: #004b49;
+}
+
+/* Footer */
+footer {
+  background-color: #004b49;
+  color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+}
+.footer-links a {
+  color: #e0e0e0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.footer-info p {
+  margin: 5px 0;
+}
