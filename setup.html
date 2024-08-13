@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Setup - SiteBlog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>SiteBlog</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="setup.html">Blog Setup</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="blog-setup" class="blog-setup">
+      <div class="container">
+        <h3>Set Up Your Blog</h3>
+        <form>
+          <label for="blog name">Name of Blog:</label>
+          <input type="text" name="blog-name" id="blog-name" required />
+          <label for="blog topics">Blog Topics/Keywords (up to 10):</label>
+          <input
+            type="text"
+            name="blog-topics"
+            id="blog-topics"
+            placeholder="e.g., Technology, Health, Fitness"
+            required
+          />
+          <label for="blog-theme">Choose a Theme Color:</label>
+          <input
+            type="color"
+            name="blog-theme"
+            id="blog-theme"
+            value="#0044cc"
+          />
+          <label for="blog-logo">Upload Your Blog Logo:</label>
+          <input type="file" name="blog-logo" id="blog-logo" accept="image/*" />
+
+          <button type="submit" class="cta-button">Save Settings</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 SiteBlog. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

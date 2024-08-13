@@ -61,13 +61,13 @@ header nav ul li a {
 }
 .features,
 .pricing,
-.signup {
+.signup, .blog-setup h3/* Blog set-up page */ {
   padding: 50px 0;
   text-align: center;
 }
 .features h3,
 .pricing h3,
-.signup h3 {
+.signup h3, .blog-setup h3/* Blog set-up page */ {
   font-size: 2.5em;
   margin-bottom: 20px;
 }
@@ -99,27 +99,34 @@ header nav ul li a {
   margin-bottom: 10px;
 }
 
-.signup form {
+.signup form,
+.blog-setup form /* Blog set-up page */ {
   width: 50%;
   margin: 0 auto;
   text-align: left;
 }
 
-.signup form label {
+.signup form label,
+.blog-setup form label /* Blog set-up page */ {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
 .signup form input,
-.signup form select {
+.signup form select,
+.blog-setup form input /* Blog set-up page */ {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
+/* Blog set-up page */
+#blog-theme {
+  width: 20%;
+  height: 40px;
+}
 footer {
   background-color: #0044cc;
   color: #fff;
