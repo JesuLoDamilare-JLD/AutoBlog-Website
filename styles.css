@@ -59,12 +59,71 @@ header nav ul li a {
 .cta-button:hover {
   background-color: #e65c00;
 }
-.features, .pricing, .signup{
-    padding: 50px 0;
-    text-align: center;
+.features,
+.pricing,
+.signup {
+  padding: 50px 0;
+  text-align: center;
 }
-.features h3, .pricing h3, .signup h3{
-    font-size: 2.5em;
-    margin-bottom: 20px;
+.features h3,
+.pricing h3,
+.signup h3 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
 }
-.features
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+}
+.feature-item {
+  width: 30%;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.pricing-table {
+  display: flex;
+  justify-content: space-around;
+}
+.pricing-plan {
+  width: 30%;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.pricing-plan ul {
+  list-style: none;
+  padding: 0;
+}
+.pricing-plan ul li {
+  margin-bottom: 10px;
+}
+
+.signup form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.signup form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.signup form input,
+.signup form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background-color: #0044cc;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
