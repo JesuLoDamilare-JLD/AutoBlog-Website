@@ -2,14 +2,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #0054aa;
+  background-color: #e9f6fb;
+  font-size: large;
 }
 .container {
   width: 80%;
   margin: 0 auto;
 }
 header {
-  background-color: #0044cc;
+  background-color: #0054aa;
   padding: 20px 0;
 }
 header h1 {
@@ -20,12 +22,13 @@ header h1 {
 header nav ul {
   list-style: none;
   float: right;
-  margin: 0;
   padding: 0;
+  border: 1px solid red;
+  margin: -10px 0 0 0;
 }
 header nav ul li {
   display: inline;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 header nav ul li a {
   color: #fff;
@@ -34,7 +37,7 @@ header nav ul li a {
 .hero {
   background: url("hero.jpeg") no-repeat center center;
   background-size: cover;
-  color: #fff;
+  color: #0054aa;
   text-align: center;
   padding: 100px 0;
 }
@@ -49,7 +52,8 @@ header nav ul li a {
 .cta-button {
   display: inline-block;
   padding: 15px 30px;
-  background-color: #ff6600;
+  background-color: #0677ba;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
   color: #fff;
   text-decoration: none;
   font-weight: bold;
@@ -57,7 +61,7 @@ header nav ul li a {
   transition: background-color 0.3s;
 }
 .cta-button:hover {
-  background-color: #e65c00;
+  background-color: #0094d4;
 }
 .features,
 .pricing,
@@ -78,7 +82,8 @@ header nav ul li a {
 .feature-item {
   width: 30%;
   padding: 10px;
-  background-color: #f2f2f2;
+  background-color: #6fccea;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
   border-radius: 5px;
 }
 .pricing-table {
@@ -88,7 +93,8 @@ header nav ul li a {
 .pricing-plan {
   width: 30%;
   padding: 10px;
-  background-color: #f2f2f2;
+  background-color: #6fccea;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
   border-radius: 5px;
 }
 .pricing-plan ul {
@@ -128,7 +134,7 @@ header nav ul li a {
   height: 40px;
 }
 footer {
-  background-color: #0044cc;
+  background-color: #0054aa;
   color: #fff;
   text-align: center;
   padding: 20px 0;
