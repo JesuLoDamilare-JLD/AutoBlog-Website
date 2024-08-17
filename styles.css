@@ -23,7 +23,6 @@ header nav ul {
   list-style: none;
   float: right;
   padding: 0;
-  border: 1px solid red;
   margin: -10px 0 0 0;
 }
 header nav ul li {
@@ -34,12 +33,29 @@ header nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+header nav ul li a:hover {
+  color: #e8f1f8;
+}
+#header {
+  position: relative;
+  padding: 100px 0;
+}
+#header::before {
+  content: "";
+  background: url("designer.png") no-repeat center center;
+  opacity: 0.2;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .hero {
-  background: url("hero.jpeg") no-repeat center center;
-  background-size: cover;
   color: #0054aa;
   text-align: center;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .hero h2 {
   font-size: 3em;
@@ -65,13 +81,23 @@ header nav ul li a {
 }
 .features,
 .pricing,
-.signup, .blog-setup h3/* Blog set-up page */ {
+.signup, 
+.benefits,
+.testimonials,
+.faqs,
+.additional-info,
+.blog-setup h3/* Blog set-up page */ {
   padding: 50px 0;
   text-align: center;
 }
 .features h3,
 .pricing h3,
-.signup h3, .blog-setup h3/* Blog set-up page */ {
+.signup h3,
+.benefits h3,
+.testimonials h3, 
+.faqs h3,
+.additional-info h3,
+.blog-setup h3/* Blog set-up page */ {
   font-size: 2.5em;
   margin-bottom: 20px;
 }
